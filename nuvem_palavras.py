@@ -6,7 +6,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 # Abrir o documento
-document = docx.Document('docx-files\Presidência da República.docx')
+document = docx.Document('docx-files/source-worlds-cloud.docx')
 
 # Junte todos os parágrafos em um único string
 text = ""
